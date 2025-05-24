@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>rynazhrazz</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #111;
+      border: 1px solid #333;
+      padding: 60px;
+      text-align: left;
+      max-width: 800px;
+    }
+
+    .title {
+      font-size: 40px;
+      font-weight: 300;
+      margin-bottom: 40px;
+      line-height: 1.2;
+    }
+
+    .coins {
+      display: flex;
+      justify-content: flex-start;
+      gap: 40px;
+    }
+
+    .coin {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+    }
+
+    .coin img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .coin strong {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Liquid Digital<br>Assets</div>
+    <div class="coins">
+      <div class="coin">
+        <img src="btc.png" alt="BTC">
+        <span><strong>Bitcoin</strong> BTC</span>
+      </div>
+      <div class="coin">
+        <img src="sol.png" alt="SOL">
+        <span><strong>Solana</strong> SOL</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
